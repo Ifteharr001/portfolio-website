@@ -20,7 +20,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
+          <img src={logo} alt="logo" className="w-14 h-12 mr-4 object-contain" />
           <p className="text-white text-[25px] font-bold cursor-pointer">
             Master In MERN
           </p>
@@ -31,7 +31,7 @@ const Navbar = () => {
               <li
                 key={link.id}
                 className={`${
-                  active === link.title ? "text-[#3b286f]" : "text-white"
+                  active === link.title ? "text-[#7848df]" : "text-white"
                 }  hover:text-[#271a49] cursor-pointer text-[15px] hover:text-[18px] font-medium`}
                 onClick={() => setActive(link.title)}
               >

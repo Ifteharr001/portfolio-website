@@ -40,6 +40,20 @@ const navLinks = [
   },
 ];
 
+export const Bio = {
+  name: "Iftekhar Rahat",
+  roles: [
+    "Full Stack Developer",
+    "MERN Stack Web Developer",
+    "Frontend Developer",
+    "Programmer",
+  ],
+  description:
+    "As a MERN Stack Web Developer, I am enthusiastic about contributing my skills to a dynamic team in a challenging and innovative environment. With proficiency in MongoDB, Express.js, React.js, and Node.js, I specialize in creating scalable and responsive web applications.",
+  github: "https://github.com/ifteharr001",
+  
+};
+
 const services = [
   {
     title: "Web Developer",
