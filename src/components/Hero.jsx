@@ -9,6 +9,7 @@ const Hero = () => {
     const typewriter = new Typewriter("#typewriter", {
       strings: Bio.roles,
       autoStart: true,
+      loop: true,
     });
 
     return () => {
@@ -32,7 +33,7 @@ const Hero = () => {
             <p className={`${styles.heroSubText} mt-2 mb-4 text-white-100`}>
               I am a <span className="text-[#7848df]" id="typewriter"></span>
             </p>
-            <p className="text-gray-300 lg:w-[700px]">{Bio.description}</p>
+            <p className="text-secondary lg:w-[700px]">{Bio.description}</p>
             <button
               style={{
                 WebkitAppearance: "button",
