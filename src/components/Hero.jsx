@@ -65,7 +65,7 @@ const Hero = () => {
             </button>
           </div>
           <div className="col-span-1">
-            <h3>hello..................</h3>
+            <h3></h3>
           </div>
         </div>
       </div>
