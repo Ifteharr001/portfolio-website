@@ -29,8 +29,12 @@ const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "project",
+    title: "Project",
+  },
+  {
+    id: "feedback",
+    title: "Feedback",
   },
   {
     id: "contact",
@@ -202,9 +206,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Library Management System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Efficiently manage your library with our user-friendly Library Management System website. Explore a seamless experience, featuring easy book cataloging, member management, and streamlined processes for enhanced library administration.",
     tags: [
       {
         name: "react",
@@ -220,49 +224,54 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/Ifteharr001/library-management-system",
+    live_link: "https://repulsive-cover.surge.sh/",
   },
   {
-    name: "Job IT",
+    name: "Inventory Management System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Optimize your inventory control effortlessly with our Inventory Management System website. Enjoy real-time tracking, automated reordering, and detailed analytics for a streamlined and efficient management of your business inventory.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "daisyUi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "jwt",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/Ifteharr001/technomind-inventory-management-system",
+    live_link: "https://technominds-9a66d.web.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Multi Vendor Car E-commerce Shop",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Experience the future of car shopping on our advanced Multi-Vendor Car E-commerce Shop. Discover a diverse array of vehicles, enjoy seamless transactions, and receive personalized assistance, ensuring a top-notch online automotive purchasing journey.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Ifteharr001/automotive-shop/",
+    live_link: "https://automotive-shop-5573d.web.app/",
   },
 ];
 

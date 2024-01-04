@@ -1,5 +1,3 @@
-
-
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -16,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -45,6 +44,12 @@ const ProjectCard = ({
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
+            <div
+              onClick={() => window.open(live_link, "_blank")}
+              className="black-gradient w-10 h-10 ml-2 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              🔗
+            </div>
           </div>
         </div>
 
@@ -53,15 +58,18 @@ const ProjectCard = ({
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
+        <div className="flex text-center items-center">
+          <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <p
+                key={`${name}-${tag.name}`}
+                className={`text-[14px] ${tag.color}`}
+              >
+                #{tag.name}
+              </p>
+            ))}
+          </div>
+          <div></div>
         </div>
       </Tilt>
     </motion.div>
@@ -98,4 +106,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "project");
