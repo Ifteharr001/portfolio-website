@@ -65,7 +65,9 @@ const Hero = () => {
             </button>
           </div>
           <div className="col-span-1">
-            <h3></h3>
+            <div>
+              <img src="https://i.ibb.co/QKCYvfX/profile-pic.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
